@@ -3,7 +3,7 @@ package org.example;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class SolutionTest {
+public class RemoveBangTest {
   @Test
   public void testBasic() {
     assertEquals("nothing to do", RemoveBang.removeBang("nothing to do"));
